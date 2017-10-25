@@ -1,0 +1,33 @@
+# Dependencies
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Chirag Wadhera'
+tagline:          ': Life Is Learning!'
+description:      'Programmer · Developer · Learner'
+url:              //aktech.github.io
+
+author:
+  name:           'Chirag Wadhera'
+  email:          chiragwadhera15@gmail.com
+
+# contact details
+contact:
+  github:         https://github.com/chiragw15
+  twitter:        https://twitter.com/chiragw15
+  gmail:          mailto:chiragwadhera15@gmail.com
+
+# Gems
+
+source:      .
+destination: ./_site
+
+timezone: Asia/Calcutta
+
+devurl: http://localhost:4000
+port: 4000
+host: 0.0.0.0
+baseurl: /
