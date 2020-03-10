@@ -1,0 +1,60 @@
+<!-- The code for this website is inspired from Amit Kumar http://iamit.in/ -->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Deepansha Wadhera</title>
+<meta id="viewport" name="viewport" content="width=500" />
+
+<link rel="stylesheet" href="./public/theme/css/normalize.css" type="text/css" />
+<link rel="stylesheet" href="./public/theme/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="./public/theme/css/base.css" type="text/css" />
+<link rel="stylesheet" href="./public/theme/css/index.css" type="text/css" />
+
+</head>
+<body>
+
+
+<div class="index-body">
+    <div class="shim"></div>
+    <div class="index-inner">
+
+<div class="topbar">
+    <span><a href="about.html">Deepansha Wadhera</a></span> </br>
+    <li>Programmer • Developer • Learner</li></span>
+
+    <ul>
+        <li><a href="about.html">about</a></li>
+        <li><a href="DEEPANSHA WADHERA.pdf" target="_blank">cv</a></li>
+    </ul>
+</div>
+        <div class="social">
+            <a href="https://github.com/deepanshaW" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+            <a href="mailto:deepansha.wadhera2@gmail.com" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/deepanshawadhera" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    var num=0;
+    window.onload = function () {
+
+    function changeImage() {   
+        console.log("hello");
+        var BackgroundImg = ["bg.jpg",
+            "bg2.jpg",
+            "bg3.jpg"
+        ];
+        num = (num + 1)%3;
+        console.log(num);
+        document.getElementsByClassName("index-body")[0].style.backgroundImage = "url('"+BackgroundImg[num]+"')";
+    }
+    window.setInterval(changeImage, 4000);
+}   
+</script>
+
+</body>
+</html>
